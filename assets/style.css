@@ -1,0 +1,129 @@
+@import url('https://fonts.googleapis.com/css2?family=Permanent+Marker&display=swap');
+
+body  {
+   background-image: url("./images/quiz-background.jpg");
+}
+
+*{
+   box-sizing: border-box;
+   margin: 0;
+   padding: 0;
+   font-size: 35px;
+   font-family: "Permanent Marker", cursive;
+}
+
+h1 {
+color: orange;
+font-size: 35px;
+}
+
+
+.container {
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   max-width: fit-content;
+   margin: auto;
+   /* padding: 30px; */
+}
+
+.flex-column {
+display: flex;
+flex-direction: column;
+}
+
+.flex-center {
+justify-content: center;
+align-items: center;
+}
+
+h2 {
+   position: absolute;
+   bottom: 167px;
+   color: #06e6f5;
+
+}
+.quiz-rules {
+   position: absolute;
+   top: 540px;
+   left: 30px;
+    display: flex;
+    justify-content: center;
+    /* align-items: center; */
+    flex-wrap: wrap;
+    flex-direction: row;
+    max-width: fit-content;
+    margin: auto;
+    background-image: linear-gradient(215deg, #3ed694, #d70e0ea8);
+    width: 610px;
+    height: 230px;
+    padding: 75px;
+    border: 5px solid cornflowerblue;
+    border-style: groove;
+}
+
+li {
+   position:relative;
+   left: 30px;
+   bottom: 28px;
+   font-size: 17px;
+   color: #adf10e;
+}
+
+li:hover {
+   -ms-transform: scale(1.5); /* IE 9 */
+   -webkit-transform: scale(1.5); /* Safari 3-8 */
+   transform: scale(1.5); 
+}
+
+
+
+h2:hover {
+   -ms-transform: scale(1.5); 
+   -webkit-transform: scale(1.5); 
+   transform: scale(1.5); 
+}
+
+
+
+
+
+
+
+
+
+
+
+.btn {
+       background-color: #21e6cb; 
+      color: #de1010; 
+      border: 3px solid #0d1bd3;
+      padding: 16px 32px;
+      text-align: center;
+      text-decoration: none;
+      display: inline-block;
+      font-size: 16px;
+      margin: 4px 2px;
+      transition-duration: 0.4s;
+      cursor: pointer;
+      width: 300px;
+      font-size: 25px;
+      font-weight: bolder;
+      text-align: center;
+      background-image: linear-gradient(176deg, #e7a90a, #e04e2900);
+      border-radius: 4px;
+    
+}
+
+ .btn:hover {
+   cursor: pointer;
+   background-color: #cf0bcf;
+   color: rgb(8, 6, 6);
+   box-shadow: 5px 5px #e907d6;
+   transition: 100ms;
+   transform: scale(1.0);
+ }
+ 
+ #highscore-btn {
+   background-image: linear-gradient(176deg, #bebab0, #03010100);
+ }
