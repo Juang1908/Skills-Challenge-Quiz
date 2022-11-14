@@ -127,3 +127,42 @@ h2:hover {
  #highscore-btn {
    background-image: linear-gradient(176deg, #bebab0, #03010100);
  }
+
+
+ /* Game-Over page*/
+ 
+ .end-form-container {
+   width: 100%;
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+   max-width: fit-content
+ }
+
+ input {
+   margin-bottom: 16px;
+   width: 320px;
+   padding: 24px;
+   font-size: 32px;
+   box-shadow: 7px 7px 6px 0px #ffe000;
+ }
+
+ input::placeholder {
+   color: whitesmoke;
+ }
+
+ #username {
+   margin-bottom: 50px;
+   width: 100%;
+   text-align: center;
+ }
+
+ #end-text {
+   font-size: 45px;
+   color: #e7a90a;
+   text-align: center;
+ }
+
+ #saveScoreBtn {
+   border: none;
+ }
