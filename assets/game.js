@@ -4,6 +4,8 @@ var progressText = document.querySelector("#progressText");
 var scoreText = document.querySelector("#score");
 var progressBarFull = document.querySelector("#progressBarFull");
 
+var timerEL = document.getElementById("timer");
+
 var currentQuestion = {}
 var acceptingAnswers = true
 var score = 0
@@ -108,6 +110,29 @@ choices.forEach(choice => {
 
     })
 })
+
+function countDown(){
+var timeLeft = 60;
+var timeInterval = setInterval (function(){
+    if(timeLeft > 0){
+timerEL.textContent = timeLeft + " seconds remaining";
+    timeLeft--;
+} else {
+    timerEL.textContent = "TIME'S UP!!!";
+    clearInterval(timeInterval);
+}
+}, 1000)
+}
+countDown();
+// function countDown(){
+// var timeLeft = 40;
+// var timeInterval = setInterval (function (){
+//     timeLeft--;
+//     timerEL.textContent = "Time Remaining: " + timeLeft;
+// }, 1000)
+// return;
+// }
+// countDown(); 
 
 incrementScore = num => {
     score +=num

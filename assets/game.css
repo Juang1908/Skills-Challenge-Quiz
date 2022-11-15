@@ -29,7 +29,7 @@ h1 {
     /* margin-bottom: 13px;
     width: 100%; */
     border-radius: 4px;
-    background: pink;
+    background: linear-gradient(32deg, rgba(15, 231, 15, 0.993) 0%, rgb(187, 184, 13) 100%);  
     font-size: 15px;
     min-width: 35px;
     margin: 7px;
@@ -60,7 +60,12 @@ h1 {
     background: linear-gradient(32deg, rgb(192, 204, 24) 0%, rgb(94, 104, 4) 100%);  
   }
 
- 
+ span#timer{
+color: black;
+margin-left: 450px;
+background: linear-gradient(159deg, #f6f109, #b61616a1);
+ }
+
 .hud-prefix {
     /* text-align: center; */
     font-size: 35px;
