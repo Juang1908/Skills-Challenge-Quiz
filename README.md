@@ -2,7 +2,7 @@
 
 ## Description
 
-A short quiz with multiple choice questions.
+A short timed quiz with multiple choice questions.
 
 ## Table of Contents
 
@@ -50,4 +50,10 @@ SOFTWARE.
 
 ## Screenshot
 
+![Home-Screen](./assets/images/home.jpg)
+![Game-Screen](./assets/images/game.jpg)
+
 ## Weblink
+
+https://juang1908.github.io/Skills-Challenge-Quiz/
+https://github.com/Juang1908
