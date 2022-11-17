@@ -11,7 +11,7 @@ var acceptingAnswers = true
 var score = 0
 var questionCounter = 0
 var availableQuestions = []
-
+// beginning of questions and answers
 var questions= [
     {
         question: "How many months do we have in a year?",
@@ -49,10 +49,10 @@ var questions= [
         answer: 3,
     }
 ]
-
+// how to score right and wrong answers
 var SCORE_POINTS = 25
 var MAX_QUESTIONS = 4
-
+// beginning of game counter
 startGame = () => {
     questionCounter = 0
     score = 0
@@ -110,9 +110,9 @@ choices.forEach(choice => {
 
     })
 })
-
+// timer
 function countDown(){
-var timeLeft = 60;
+var timeLeft = 25;
 var timeInterval = setInterval (function(){
     if(timeLeft > 0){
 timerEL.textContent = timeLeft + " seconds remaining";
@@ -124,15 +124,7 @@ timerEL.textContent = timeLeft + " seconds remaining";
 }, 1000)
 }
 countDown();
-// function countDown(){
-// var timeLeft = 40;
-// var timeInterval = setInterval (function (){
-//     timeLeft--;
-//     timerEL.textContent = "Time Remaining: " + timeLeft;
-// }, 1000)
-// return;
-// }
-// countDown(); 
+
 
 incrementScore = num => {
     score +=num

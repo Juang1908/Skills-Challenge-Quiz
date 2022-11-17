@@ -4,7 +4,7 @@ var finalResults = document.querySelector("#finalResults")
 var mostRecentScore = localStorage.getItem("mostRecentScore")
 
 var highScores = JSON.parse(localStorage.getItem("highScores")) || []
-
+// max scores to input
 var MAX_HIGH_SCORES = 3
 
 finalResults.innerText = mostRecentScore
